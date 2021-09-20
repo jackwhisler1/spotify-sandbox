@@ -1,1 +1,1 @@
-RSpotify::authenticate('975e5460298e4e3aadfb5388395e65b9', '#')
+RSpotify::authenticate(Rails.application.credentials.spotify_api_key[:client_id], Rails.application.credentials.spotify_api_key[:client_secret]);
